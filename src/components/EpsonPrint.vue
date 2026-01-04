@@ -8,7 +8,7 @@
           id="printer-ip"
           v-model="printerIP"
           type="text"
-          placeholder="192.168.1.100"
+          placeholder="192.168.1.101"
           class="input-field"
         />
       </div>
@@ -53,7 +53,7 @@
 <script setup>
 import { ref } from 'vue'
 
-const printerIP = ref('192.168.1.100')
+const printerIP = ref('192.168.1.101')
 const printerPort = ref('8008')
 const isPrinting = ref(false)
 const statusMessage = ref('')
